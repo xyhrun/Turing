@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+
+<ImageView android:id="@+id/item_me_id"
+    android:layout_alignParentRight="true"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:background="@mipmap/header00"/>
+
+    <TextView android:id="@+id/show_time_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:text="6-29 18:38"/>
+
+
+    <TextView android:id="@+id/item_content_id"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@+id/item_me_id"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="18sp"
+        android:textColor="@color/color_blue"
+        android:text="你好啊发的 的"/>
+</RelativeLayout>
